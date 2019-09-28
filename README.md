@@ -7,7 +7,7 @@
 
 ## Instructions
 
-You have to down load the zip-file to start the game. on the folder you can find ( CSS - JavaScript HTML and image files).
+You have to down load the zip-file to start the game. Inside the folder you can find ( CSS - JavaScript HTML and image) files.
 - once it download open index file and start to play.
 
 
