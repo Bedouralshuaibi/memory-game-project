@@ -1,13 +1,10 @@
+'use strict';
 
-/*
- * Create a list that holds all of your cards
-*/
-/*
- * Display the cards on the page
- *   - shuffle the list of cards using the provided "shuffle" method below
- *   - loop through each card and create its HTML
- *   - add each card's HTML to the page
- */
+ var min    = 0;
+ var second = '00';
+ var zeroPlaceholder = 0;
+ var counterId =
+ setInterval(function(){ timerCounter(); }, 1000);
 
 var listHolder =
  ['fa-diamond', 'fa-diamond', 'fa-anchor', 'fa-anchor',
@@ -152,24 +149,20 @@ let restart = document.querySelector('.restart');
 
 });
 ////////// timer ///////
-var min    = 0;
-var second = 00;
-var zeroPlaceholder = 0;
-var counterId =
-setInterval(function(){ timerCounter(); }, 1000);
+
 
 function timerCounter ()
 {
   second++;
   if(second == 59)
-    {  second = 00;
+    {  second = '00';
       min = min + 1;
     }
    if(second == 10)
     {  zeroPlaceholder = '';
     }
-    else if(second == 00){
-       zeroPlaceholder = 0;
+    else if(second == '00'){
+       zeroPlaceholder = '0';
            }
   let timer = document.getElementById("timer");
   let b = timer.innerText = min+':'+zeroPlaceholder+second;
