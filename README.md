@@ -3,7 +3,7 @@
 ## Table of Contents
 
 * [Instructions](#instructions)
-* [About the Game](#About the Game)
+* [AbouttheGame](#AbouttheGame)
 
 ## Instructions
 
